@@ -68,7 +68,7 @@
 												 </a> 
 												<input type="checkbox" name="aID[]" value="{{ item.id }}">
 											  </div>	
-											  <div>{{ item.title|slice(0,30) }} </div>
+											  <div><a href="showdescription.php?id={{item.id}}" target="_blank">{{ item.title|slice(0,30) }}</a> </div>
 											  
 											  <div>
 											  Price : <b>{{item.price|number_format(2)}}</b>
